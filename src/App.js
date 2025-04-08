@@ -50,15 +50,14 @@ function App() {
               </Paper>
             </Grid>
             
-            {/* Modified to place these charts side by side */}
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12}>
               <Paper sx={{ p: 2 }}>
                 <Typography variant="h5" gutterBottom>Pie Chart</Typography>
                 <PieChartExample />
               </Paper>
             </Grid>
             
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12}>
               <Paper sx={{ p: 2 }}>
                 <Typography variant="h5" gutterBottom>Scatter Chart</Typography>
                 <ScatterChartExample />
